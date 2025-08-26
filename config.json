@@ -1,0 +1,17 @@
+{
+    "watch_dir": "C:/Users/Code God/Videos",
+    "recursive": false,
+    "date_based": true,
+    "date_field": "mtime",
+    "date_format": "%Y-%m",
+    "dry_run": false,
+    "regex_rules": [
+      {"pattern": "invoice|bill|receipt", "folder": "Invoices"},
+      {"pattern": "resume|cv", "folder": "Resumes"}
+    ],
+    "exclude_patterns": [
+      "^Thumbs.db$",
+      "\\.DS_Store$"
+    ]
+  }
+  
